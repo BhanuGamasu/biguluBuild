@@ -1,0 +1,13 @@
+version: 0.0
+
+os: linux  # Update if your target OS is Windows
+
+# Define the deployment folder location on your server
+deploy:
+  # Replace "/path/to/deployment/folder" with your desired location
+  location: /var/www/httpdocs/web/
+
+# Specify files/folders to deploy (replace with your actual files)
+files:
+  - source: /  # Replace with your source directory structure
+    destination: .
